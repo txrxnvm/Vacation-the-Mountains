@@ -38,7 +38,7 @@ function locationOption(item) {
       visitLink.href = item.Visit;
     } else {
       visitLink.innerHTML =
-        "<span style='font-size:40px'>&#128581;&#127995;</span> N/A";
+        "<span style='font-size:40px;'>&#10060;</span> N/A";
     }
   
     const visitCell = document.createElement("td");
@@ -58,7 +58,7 @@ function locationOption(item) {
   
   function showCards(list, target) {
     const tableBody = document.getElementById("tableBody");
-    tableBody.innerHTML = ""; // Clear the previous results
+    tableBody.innerHTML = ""; 
   
     if (list.length === 0) {
       const tableRow = document.createElement("tr");

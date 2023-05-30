@@ -10,7 +10,7 @@ window.onscroll = () =>{
     navbar.classList.remove('active');
 }
 
-var swiper = new swiper(".gallery-slider", {
+var swiper = new swiper(".mount-slider", {
     grabCursor:true,
     loop:true,
     centeredSlides:true,
@@ -27,4 +27,6 @@ var swiper = new swiper(".gallery-slider", {
             slidesPerView:2,
         },
     }
-})
+});
+
+

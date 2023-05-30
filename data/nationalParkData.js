@@ -58,7 +58,7 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "AFBG",
+    LocationID: "ABG",
     LocationName: "African Burial Ground National Monument",
     Address: "290 Broadway, 1st Floor",
     City: "New York",

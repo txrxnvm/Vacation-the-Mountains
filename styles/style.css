@@ -96,6 +96,18 @@ section{
   padding: 2rem 9%;
 }
 
+.navbar {
+  overflow: auto; /* Enable horizontal scrolling if necessary */
+  white-space: nowrap; /* Prevent line breaks within navbar items */
+}
+
+.navbar-item {
+  display: inline-block; /* Display navbar items in a row */
+  padding: 10px; /* Adjust padding as needed */
+}
+
+
+
 .header .logo{
   font-size: 2.5rem;
   font-weight: bolder;
@@ -460,6 +472,7 @@ section{
   background: url(../images/footer.jpg) no-repeat;
   background-size: cover;
   padding: 3rem 7%;
+
 }
 
 .footer .box-container{
