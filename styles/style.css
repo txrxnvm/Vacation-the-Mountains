@@ -253,7 +253,7 @@ section{
 
 .gallery .slide .image{
   height: 30rem;
-  overflow: hidden;
+  overflow:hidden;
   position: relative;
 }
 
