@@ -210,6 +210,21 @@ main {
   padding: 100;
 }
 
+.img-fluid {
+  display: block;
+  max-width: 60%;
+  height: auto;
+  padding: 1%;
+  margin: 0 auto; /* Centers the image horizontally */
+}
+
+body{
+  display: block;
+  text-align: center;
+ 
+  padding: 3%;
+}
+
 
 /* footer */
 

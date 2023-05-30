@@ -3,10 +3,10 @@ document.addEventListener("DOMContentLoaded", () => {
   
     let heading = document.createElement("h1");
     let image = document.createElement("img");
-    let description = document.createElement("p");
-    let elevation = document.createElement("p");
-    let coordinates = document.createElement("p");
-    let effort = document.createElement("p");
+    let description = document.createElement("h2");
+    let elevation = document.createElement("h3");
+    let coordinates = document.createElement("h3");
+    let effort = document.createElement("h3");
     document.body.appendChild(heading);
     document.body.appendChild(image);
     document.body.appendChild(description);
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
     async function displayMountain(mountainInfo) {
       heading.innerHTML = mountainInfo.name;
-      image.src = "images/" + mountainInfo.img;
+      image.src = "/images/" + mountainInfo.img;
       image.classList.add("img-fluid");
       description.innerHTML = mountainInfo.desc;
       elevation.innerHTML = "Elevation: " + mountainInfo.elevation;
